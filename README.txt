@@ -38,17 +38,6 @@ in some cases it is necessary for a user to run pppd with root privileges.
 DO THIS ONLY IF NECESSARY, it is highly recommended against.
 "chmod u+s /usr/sbin/pppd"
 
-
-to compile client.java type
-"javac client.java"
-
-to run the resulting .class file
-"java client 127.0.0.1 25000"
-
-127.0.0.1 is the default ip address and 25000 is the default port
-
-Make sure the ftp program is already up and running or client.class will timeout and close.
-
 -------------------------------------------------------
 -INSTALLING WRAPPER FOR RASDIAL (ONLY FOR NON WINDOWS)-
 -------------------------------------------------------
