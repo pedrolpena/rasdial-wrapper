@@ -47,7 +47,7 @@ here is a list of the included files.
 aspergarria - a test script I made to login to my server
 cmd         - a script to mimic a single case of windows cmd.exe
 install.sh  - the rasdial wrapper install script 
-iridium     - a chat script for logging into the iridium dialup gateway
+iridium.tmp - used to create a chat script for logging into the iridium dialup gateway
 options     - option file for pppd
 ppp-off     - bash script that closes a connection on ppp0
 ppp-on      - bash script to start pppd(this should actually not be there,
