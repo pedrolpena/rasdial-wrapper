@@ -78,7 +78,7 @@ if [ "${1,,}" != "" ]; then
              sleep 1
          done
          
-        if [ -f "var/run/ppp0.pid" ]; then    
+        if [ -f "/var/run/ppp0.pid" ]; then    
             echo "${1,,}" > /tmp/rasconnections
             echo "Verifying username and password..."
             sleep 3s
