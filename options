@@ -1,6 +1,6 @@
 asyncmap 0
 noauth
-idle 300
+idle 60
 crtscts
 lock
 show-password
@@ -10,6 +10,6 @@ lcp-echo-failure 4
 noipx
 debug
 noipdefault
-defaultroute 0.0.0.0:0.0.0.0 
-connect-delay 20
+defaultroute 0.0.0.0:0.0.0.0
+connect-delay 5000
 usepeerdns

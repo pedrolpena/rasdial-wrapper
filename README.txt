@@ -90,6 +90,23 @@ Example with options
 
 "sudo ./install.sh -l /etxe/kepa -p /dev/ttyS7 -b 9600 -o /etxe/kepa/temp"
 
+To connect to the iridium gateway pap authentication is required for some reason.
+I think this might be a formality in the server program they are using because I've successfully tried
+several username/password combos. you might have to include a local username and password in "/etc/ppp/pap-secrets".
+
+Below are the contents of the "/etc/ppp/pap-secrets" file I used to connect to the iridium gateway
+from a raspberry pi running raspbian.
+
+#----------------------/etc/ppp/pap-secrets----------------------
+
+*	hostname	""	*
+guest	hostname	"*"	-
+master	hostname	"*"	-
+root	hostname	"*"	-
+support	hostname	"*"	-
+stats	hostname	"*"	-
+pi * raspberry *
+
 
 ---------------------------
 -MAKING SURE RASDIAL WORKS-
